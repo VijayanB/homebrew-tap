@@ -10,7 +10,7 @@ class OpensearchCliAT100 < Formula
   conflicts_with "odfe-cli"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-macos-x64.zip"
+    url "http://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-macos-x64.zip"
     # sha256 "6950edfe6720e9b2f89f3210270f1c3ad219ce2fbe60b2024ea682f43b31b3d3"
   end
   if OS.mac? && Hardware::CPU.arm?
