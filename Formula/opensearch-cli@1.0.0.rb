@@ -11,7 +11,7 @@ class OpensearchCliAT100 < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "http://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-macos-x64.zip"
-    # sha256 "6950edfe6720e9b2f89f3210270f1c3ad219ce2fbe60b2024ea682f43b31b3d3"
+    sha256 "32d961132c0cc9ba29d47660135ece1fc0692349b8c914332c50f1005303b544"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/VijayanB/es-cli/releases/download/v1.1.0/opensearch-cli_Darwin_arm64.tar.gz"
