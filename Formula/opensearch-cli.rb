@@ -5,8 +5,9 @@
 class OpensearchCli < Formula
   desc "A full-featured command line interface (CLI) for OpenSearch."
   homepage "https://github.com/opensearch-project/opensearch-cli"
-  version "opensearch-cli_1.1.0"
+  version "1.1.0"
   bottle :unneeded
+  conflicts_with "odfe-cli"
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-macos-x64.zip"
